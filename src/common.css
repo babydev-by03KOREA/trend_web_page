@@ -1,0 +1,38 @@
+.main-container {
+    height: 100vh;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    box-sizing: border-box; /* ⭐️ 필수 추가 */
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.description {
+    font-size: 14px;
+    color: #CAC4D0;
+}
+
+.button-container {
+    width: 100%;
+}
+
+.button-container a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: #222222;        /* 부모 색상 상속 */
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-text {
+    font-size: 15px;
+    font-weight: 600;
+}
