@@ -1,0 +1,12 @@
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.buttonText {
+    font-size: 15px;
+    font-weight: 600;
+}

@@ -1,0 +1,21 @@
+.app-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 57.5px;
+    box-sizing: border-box;
+}
+
+.app-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+}
+
+.app-button-container a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: #222222;        /* 부모 색상 상속 */
+}
+

@@ -4,7 +4,19 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    box-sizing: border-box; /* ⭐️ 필수 추가 */
+    box-sizing: border-box;
+}
+
+/* semibold: 600, bold: 700 */
+.contact-email {
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* 남은 공간을 모두 차지하여 중앙에 위치하도록 함 */
+    padding: 0; /* padding을 제거해야 정확한 중앙이 됨 */
+    color: #222222;
 }
 
 .title {
@@ -23,8 +35,8 @@
 }
 
 .button-container a {
-    text-decoration: none; /* 밑줄 제거 */
-    color: #222222;        /* 부모 색상 상속 */
+    text-decoration: none;
+    color: #222222;
 }
 
 .button {
