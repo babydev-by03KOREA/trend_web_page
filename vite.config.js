@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/legal/',
+  // base: '/legal/',
   plugins: [react()],
   host: '0.0.0.0',  // 외부 IP나 도메인으로 접속할 수 있게
   port: 3000,

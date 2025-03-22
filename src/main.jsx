@@ -10,7 +10,8 @@ createRoot(document.getElementById('root')).render(
     <StrictMode>
         <div className="webContainer">
             <div className="mobileContainer">
-                <BrowserRouter basename={"/legal"}>
+                {/*<BrowserRouter basename={"/legal"}>*/}
+                <BrowserRouter>
                     <Routes>
                         <Route path="/" element={<App/>}></Route>
                         <Route path="/terms-of-use" element={<TermsOfUsePage/>}></Route>
