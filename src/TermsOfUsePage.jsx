@@ -1,12 +1,12 @@
 import './css/common.css';
 import SizedBox from "./components/SizedBox.jsx";
 import React from "react";
-import BackButton from "./components/BackButton.jsx";
+import CloseButton from "./components/CloseButton.jsx";
 
-function TermsOfServicePage() {
+function TermsOfUsePage() {
     return (
         <>
-            <BackButton/>
+            <CloseButton/>
             <div className="main-container">
                 <div className="title">TERMS OF SERVICE</div>
                 <SizedBox height={"32px"}/>
@@ -93,4 +93,4 @@ function TermsOfServicePage() {
     );
 }
 
-export default TermsOfServicePage;
+export default TermsOfUsePage;

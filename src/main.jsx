@@ -3,9 +3,8 @@ import {createRoot} from 'react-dom/client'
 import App from './App.jsx'
 import './css/index.css';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import TermsOfServicePage from "./TermsOfServicePage.jsx";
+import TermsOfUsePage from "./TermsOfUsePage.jsx";
 import PrivacyPolicyPage from "./PrivacyPolicyPage.jsx";
-import ContactPage from "./ContactPage.jsx";
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
@@ -14,8 +13,7 @@ createRoot(document.getElementById('root')).render(
                 <BrowserRouter basename={"/legal"}>
                     <Routes>
                         <Route path="/" element={<App/>}></Route>
-                        <Route path="/contact" element={<ContactPage/>}></Route>
-                        <Route path="/terms-of-service" element={<TermsOfServicePage/>}></Route>
+                        <Route path="/terms-of-use" element={<TermsOfUsePage/>}></Route>
                         <Route path="/privacy-policy" element={<PrivacyPolicyPage/>}></Route>
                     </Routes>
                 </BrowserRouter>

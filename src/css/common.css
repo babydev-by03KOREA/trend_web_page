@@ -1,5 +1,6 @@
 .main-container {
-    height: 100vh;
+    /*height: 100vh;*/
+    min-height: 100vh;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -7,27 +8,15 @@
     box-sizing: border-box;
 }
 
-/* semibold: 600, bold: 700 */
-.contact-email {
-    font-weight: 600;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1; /* 남은 공간을 모두 차지하여 중앙에 위치하도록 함 */
-    padding: 0; /* padding을 제거해야 정확한 중앙이 됨 */
-    color: #222222;
-}
-
 .title {
-    font-size: 15px;
-    font-weight: 600;
-    color: #222222;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(68, 68, 68, 1);
 }
 
 .description {
-    font-size: 14px;
-    color: #CAC4D0;
+    font-size: 11px;
+    color: rgba(68, 68, 68, 0.4);
 }
 
 .button-container {

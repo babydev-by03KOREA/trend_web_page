@@ -1,12 +1,12 @@
 import './css/common.css';
 import SizedBox from "./components/SizedBox.jsx";
 import React from "react";
-import BackButton from "./components/BackButton.jsx";
+import CloseButton from "./components/CloseButton.jsx";
 
 function PrivacyPolicyPage() {
     return (
         <>
-            <BackButton/>
+            <CloseButton/>
             <div className="main-container">
                 <div className="title">PRIVACY POLICY</div>
                 <SizedBox height={"48px"}/>

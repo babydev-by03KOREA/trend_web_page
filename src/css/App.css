@@ -1,21 +1,43 @@
 .app-container {
-    width: 100%;
     height: 100vh;
     display: flex;
-    align-items: center;
-    padding: 0 57.5px;
+    flex-direction: column;
     box-sizing: border-box;
 }
 
-.app-button-container {
+.contact-email {
+    flex: 9;
+    font-weight: 400;
+    font-size: 11px;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #222222;
 }
 
-.app-button-container a {
-    text-decoration: none; /* 밑줄 제거 */
-    color: #222222;        /* 부모 색상 상속 */
+.contract {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #222222;
 }
 
+.divider {
+    font-weight: 400;
+    font-size: 11px;
+    color: #222222;
+    padding: 0 8px;
+}
+
+.contact-item {
+    font-weight: 400;
+    font-size: 11px;
+    color: #222222;
+}
+
+.contract a {
+    text-decoration: none;
+    color: #222222;
+}

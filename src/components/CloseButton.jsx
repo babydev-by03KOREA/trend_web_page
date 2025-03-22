@@ -1,9 +1,9 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
-import backIcon from '../assets/back.png';
+import closeIcon from '../assets/close.png';
 import styles from '../css/module/backbutton.module.css';
 
-function BackButton() {
+function CloseButton() {
     const navigate = useNavigate();
 
     const handleBack = () => {
@@ -13,10 +13,10 @@ function BackButton() {
     return (
         <div className={styles.navBar}>
             <button className={styles.backButton} onClick={handleBack}>
-                <img src={backIcon} alt="Back" className={styles.backIcon} width={7.5} height={12}/>
+                <img src={closeIcon} alt="Close" className={styles.backIcon} width={8} height={8}/>
             </button>
         </div>
     );
 }
 
-export default BackButton;
+export default CloseButton;
