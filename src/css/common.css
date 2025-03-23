@@ -1,11 +1,25 @@
+/* 1. 키프레임 정의: 0%에는 투명, 100%에는 불투명 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* 2. .main-container에 애니메이션 적용 */
 .main-container {
-    /*height: 100vh;*/
     min-height: 100vh;
     padding: 16px;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
     box-sizing: border-box;
+
+    /* fade-in 효과: 300ms 동안 부드럽게 나타남 */
+    -webkit-animation: fadein 300ms ease-in-out;
+    animation: fadein 300ms ease-in-out;
 }
 
 .title {

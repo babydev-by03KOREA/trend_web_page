@@ -13,7 +13,7 @@ function CloseButton() {
     return (
         <div className={styles.navBar}>
             <button className={styles.backButton} onClick={handleBack}>
-                <img src={closeIcon} alt="Close" className={styles.backIcon} width={8} height={8}/>
+                <img src={closeIcon} alt="Close" className={styles.backIcon} width={10} height={10}/>
             </button>
         </div>
     );
