@@ -8,17 +8,12 @@ import PrivacyPolicyPage from "./PrivacyPolicyPage.jsx";
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <div className="webContainer">
-            <div className="mobileContainer">
-                {/*<BrowserRouter basename={"/legal"}>*/}
-                <BrowserRouter>
-                    <Routes>
-                        <Route path="/" element={<App/>}></Route>
-                        <Route path="/terms-of-use" element={<TermsOfUsePage/>}></Route>
-                        <Route path="/privacy-policy" element={<PrivacyPolicyPage/>}></Route>
-                    </Routes>
-                </BrowserRouter>
-            </div>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<App/>}></Route>
+                <Route path="/terms-of-use" element={<TermsOfUsePage/>}></Route>
+                <Route path="/privacy-policy" element={<PrivacyPolicyPage/>}></Route>
+            </Routes>
+        </BrowserRouter>
     </StrictMode>
 )
