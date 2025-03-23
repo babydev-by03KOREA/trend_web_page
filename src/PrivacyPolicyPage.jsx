@@ -10,7 +10,6 @@ function PrivacyPolicyPage() {
             <div className="main-container">
                 <div className="title">PRIVACY POLICY</div>
                 <div className="container-wrapper">
-                    <SizedBox height={"48px"}/>
                     <div className="title">COLLECTION OF PERSONAL INFORMATION</div>
                     <SizedBox height={"32px"}/>
                     <div className="description">
